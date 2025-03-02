@@ -293,7 +293,7 @@ repeat wait() until not mainPar:FindFirstChild("Welcome") or LoadUI == 1
 
 local Liber = {}
 
-local set = loadstring(game:HttpGet("https://pastebin.com/raw/gtZQJA7L"))()
+--local set = loadstring(game:HttpGet("https://pastebin.com/raw/gtZQJA7L"))()
 local V6 = Instance.new("ScreenGui")
 V6.Name = "V6"
 V6.Parent = mainPar
@@ -807,7 +807,7 @@ function Liber:MrTX(options)
 	topMain.ClipsDescendants = true
 	topMain.Size = UDim2.new(1, 0, 0, 30)
 
-	set:dragify(topMain,mainUI)
+--	set:dragify(topMain,mainUI)
 
 	local GeneralPage = Instance.new("Frame")
 	GeneralPage.Name = "GeneralPage"
